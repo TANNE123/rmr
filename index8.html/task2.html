@@ -1,0 +1,101 @@
+<html>
+  <style>
+    fieldset{
+      background-color: lightgreen;
+      width: 650;
+      height: 40;
+      position: relative;
+      
+    }
+    fieldset > h1{
+      position: absolute;
+      top: -20px;
+    }
+  </style>
+    <fieldset>
+      <h1>workshop registration
+      <select>
+        <option value="more">More action</option>
+      </select>
+    </h1>
+    </fieldset><br>
+  <table>
+    <u><h3>Rigister now while seats are available</u></h3>
+
+    <tr>
+      <td><label for="fname"><b>First Name :</b></label></td>
+      <td>
+        <input type="text" id="fname" />
+      </td>
+      <td>
+        <u>Lunch</u>
+      </td>
+    </tr>
+    <tr><td><label for="lname"><b>Last Name :</b></label></td>
+    <td><input type="text" id="lname"></td>
+    <th>Meal preference</th>
+    <td><select>
+        <option value="vegatarian">Vegatarian</option>
+        <option value="vegatarian">rice</option>
+        <option value="vegatarian">curry</option>
+    </select></td>
+</tr>
+<tr>
+    <td><label for="company"><b>Companyinstitution :</b></label></td>
+    <td><input type="text" id="company"></td>
+    <td><u>Payment Details</u></td>
+</tr>
+<tr><td><label for="Address"><b>Address :</b></td>
+<td ><textarea rows="5" cols="20"> </textarea></td>
+<td><b>Payment Mode</b></td>
+<td><input type="checkbox" id="cash" >
+<label for="cash">Cash</label><br>
+<input type="checkbox" id="cheque" >
+<label for="cheque">Cheque</label><br>
+<input type="checkbox" id="demand" >
+<label for="demand">Demand Dreft</label></td></tr>
+
+
+<tr><td><label for="city"><b>City :</b></label></td>
+<td><input type="text"id="city"></td>
+<td><label for="dd"><b>DD/Cheque No :</b></label></td>
+<td><input type="text" id="DD"></td></tr>
+
+
+<tr><td><label for="state"><b>State/Province/Region :</b></label></td>
+<td><select >
+  <option value="select">-----------Select-------------</option>
+  <option value="ap">Andhara pradesh</option>
+  <option value="tg">Telangana</option>
+</select></td>
+<td><label for="drawn"><b>Drawn On (Bank Name)</b></label></td>
+<td><input type="text" id="drawn"></td></tr>
+
+
+<tr>
+  <td><label for="country"><b>Country :</b></label></td>
+  <td><select >
+  <option value="country">-----------Select-------------</option>
+  <option value="indian">india</option>
+  <option value="india">usa</option>
+</select></td>
+<td><label for="payable"><b>Payable at </b></label></td>
+<td><input type="text" id="payable"></td></tr>
+<tr><td><label for="email"><b>Email :</b></label></td>
+<td><input type="text" id="email"></td></tr>
+
+
+<tr><td><label for="phone"><b>Phone Number :</b></label>
+<td><input type="text" id="phone"></td></td>
+</tr>
+
+<tr>
+  <td style="background-color: lightgreen;"  colspan="4">
+    <center><input type="submit" value="Submit">
+    <input type="reset" value="Reset"></center>
+  </td>
+   </tr>
+  
+  </table>
+  
+</html>
